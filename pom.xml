@@ -34,6 +34,8 @@
         <module>java-alogorithm-demo</module>
         <module>java-springboot-demo</module>
         <module>pers-spring-demo</module>
+        <module>java-activiti-demo</module>
+
     </modules>
     <dependencies>
         <dependency>
