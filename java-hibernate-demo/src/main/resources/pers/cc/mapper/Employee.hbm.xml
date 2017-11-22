@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+ 
+ <hibernate-mapping package="pers.cc.entity">
+ 		<class name="Employee" > 
+ 			<meta attribute="EmployeeClass-description">
+ 				This class is the employee detail
+ 			</meta>
+ 			<cache usage="read-write" />
+ 			<!-- name属性实体属性名称	type字段类型,实体需与数据库匹配,注意空格! column数据库字段名称 -->
+ 			<id name="id" type="int" column="id">
+ 				<generator class="native" ></generator>
+ 			</id>
+ 			<property name="fristName" column="fristName" type="string" />
+ 			<property name="lastName" column="lastName" type="string" />
+ 			<property name="salary" column="salary" type="int" />
+ 			
+ 		</class>
+ 	
+ </hibernate-mapping>
+
+ 

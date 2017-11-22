@@ -1,0 +1,33 @@
+ <ehcache>
+<!-- 缓存到硬盘的路径 -->
+<diskStore path="C:\Users\Administrator\Desktop"/>
+<defaultCache
+maxElementsInMemory="50"	
+eternal="false"		
+timeToIdleSeconds="50"	
+timeToLiveSeconds="60"	
+overflowToDisk="true"	
+	/>
+
+<cache name="org.hibernate.cache.spi.UpdateTimestampsCache"  
+       maxElementsInMemory="5000"   
+       eternal="true"   
+       overflowToDisk="false" />  
+<cache name="org.hibernate.cache.internal.StandardQueryCache"  
+       maxElementsInMemory="10000"   
+       eternal="false"   
+       timeToLiveSeconds="120"  
+       overflowToDisk="false" /> 
+
+<!-- java文件注解查找cache方法名的策略：如果不指定java文件注解中的    region="ehcache.xml中的name的属性值", 则使用name名为全限定包名,
+ 如果不存在与类名匹配的cache名称, 则用 defaultCache，如果类中包含set集合, 则需要另行指定其cache指定缓存的对象，缓存哪一个实体类，下面出现的的属性覆盖上面出现的，没出现的继承上面的。
+ -->
+<cache name="pers.cc.entity.Employee"
+maxElementsInMemory="2000"
+eternal="true"
+timeToIdleSeconds="1200"
+timeToLiveSeconds="1200"
+overflowToDisk="false"
+/>
+</ehcache>
+

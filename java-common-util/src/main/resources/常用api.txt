@@ -1,0 +1,27 @@
+#########apache shiro####################
+https://shiro.apache.org/static/1.3.2/apidocs/index.html
+https://shiro.apache.org/
+############java8########################
+api http://docs.oracle.com/javase/8/docs/api/
+#############java学习网站################
+http://www.java2s.com/
+
+#############jquery######################
+http://jquery.com/
+#############bootStrap中文网#############
+http://www.bootcss.com/
+#############easyui######################
+http://www.jeasyui.net/
+#############Spring######################
+https://spring.io/docs/reference
+#############SpringMvc###################
+https://spring.io/guides/gs/serving-web-content/
+#############hibernate###################
+http://hibernate.org/orm/documentation/getting-started/
+#############mybatis###################
+http://www.mybatis.org/mybatis-3/
+###############工具网站##################
+################xml######################
+http://www.sojson.com/xml.html
+################json######################
+http://www.bejson.com/

@@ -1,0 +1,137 @@
+.navbar-static-top{
+    height: 65px;
+    display: block;
+}
+
+.navbar-left{
+    width: 245px;
+    padding-left: 46px;
+    z-index: 1000;
+}
+
+.user-panel{
+    text-align: center;
+}
+
+.img-circle{
+    margin-right: 15px;
+    width: 46px;
+    height: 46px;
+}
+
+.sidebar-search{
+    margin-top: 3px;
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    border-color: #e7e7e7;
+}
+
+p{
+    font-weight: 600;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+
+.navbar-static-top{
+    padding-top: 10px;
+}
+
+#page-wrapper{
+    min-height: 890px;
+}
+
+/* 编码规则 admin/rules/add.jsp 开始 */
+/* 新建规则表单form 开始*/
+.div_form{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:36px;
+	width:100%;
+	height:100%;
+	padding-bottom:86px;
+	border: solid 1px #cec8c8;
+}
+
+.div_form table{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.div_form td{
+	dispaly:block;
+	padding-top: 26px;
+}
+
+.div_form select{
+	width:174px;
+	display:block;
+	height:26px;
+	float:right;
+}
+
+
+.div_form span{
+	margin-left:16px;
+	margin-right:10px;
+	line-height:26px;
+}
+
+.form_button{
+	margin-top:36px;
+}
+
+.form_button button{
+	float:right;
+	margin-right:56px;
+	
+}
+
+/* 新建规则表单form 结束*/
+/* 编码规则 admin/rules/add.jsp 开始 */
+
+.code-menu{
+    margin-left: -40px;
+    height:100%;
+    border-right:1px solid #e7e7e7;
+    min-height: 890px;
+}
+
+/* 全局alert 样式开始*/
+.total_alert{
+	
+	width:100%;
+	position: absolute;
+}
+
+.total_alert span{
+	
+	display:block;
+}
+
+.alert-success{
+	width:60%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	height:106px;
+}
+
+.total_alert_close{
+	margin-top:15px;
+	float:right;
+}
+/* 全局alert 样式 结束*/
+
+/* 编码段位规则 admin/segment/add.jsp 开始 */
+.segment{
+	height:337px;
+	border:1px solid transparent;
+}
+
+.segment_button{
+	margin-right:-24px;
+	
+}
+
+
+/* 编码段位规则 admin/segment/add.jsp 结束 */

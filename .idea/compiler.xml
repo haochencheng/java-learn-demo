@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ActivitiDemo" />
+        <module name="java-alogorithm-demo" />
+        <module name="java-common-util" />
+        <module name="java-connpool-demo" />
+        <module name="java-cookies-demo" />
+        <module name="java-hibernate-demo" />
+        <module name="java-io-demo" />
+        <module name="java-springboot-demo" />
+        <module name="java-ssm-redis" />
+        <module name="java-ssm-shiro" />
+        <module name="java-swing-demo" />
+        <module name="java-train-demo" />
+        <module name="java-transport-cxf" />
+        <module name="pers-cc-blog" />
+        <module name="pers-spring-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ActivitiDemo" target="1.8" />
+      <module name="java-alogorithm-demo" target="1.8" />
+      <module name="java-common-util" target="1.5" />
+      <module name="java-connpool-demo" target="1.8" />
+      <module name="java-cookies-demo" target="1.8" />
+      <module name="java-hibernate-demo" target="1.8" />
+      <module name="java-io-demo" target="1.8" />
+      <module name="java-learn-demo" target="1.8" />
+      <module name="java-springboot-demo" target="1.8" />
+      <module name="java-ssm-redis" target="1.8" />
+      <module name="java-ssm-shiro" target="1.8" />
+      <module name="java-swing-demo" target="1.8" />
+      <module name="java-train-demo" target="1.5" />
+      <module name="java-transport-cxf" target="1.8" />
+      <module name="pers-cc-blog" target="1.8" />
+      <module name="pers-spring-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

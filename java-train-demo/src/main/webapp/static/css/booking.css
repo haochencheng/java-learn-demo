@@ -1,0 +1,154 @@
+.layout {
+	border: 1px solid #1678BE;
+}
+
+.booking {
+	width:410px;
+	height:340px;
+}
+
+.lay-hd {
+	height: 32px;
+	line-height: 30px;
+	color: #E5F8FF;
+	padding-left: 20px;
+	font-size: 14px;
+	position: relative;
+	background-color: #298CCC;
+}
+
+.booking-hd {
+	border-bottom: 1px solid #5fb0dc;
+	height: 20px;
+	padding: 5px 0 5px 18px;
+	line-height: 20px;
+	margin-left: 28px;
+}
+
+.layout {
+	background: #EEF1F8;
+	border-top: none;
+}
+
+.inp-txt_select {
+	border: 1px solid #CFCDC7;
+	width: 193px;
+	height: 18px;
+	line-height: 18px;
+	background: #fff;
+	padding: 5px 0 5px 5px;
+	color: #333333;
+	margin-top: 5px;
+}
+
+.booking-bd .label {
+	display: block;
+	padding-right: 25px;
+	width: 60px;
+	text-align: right;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+}
+
+li {
+	list-style-type: none;
+}
+
+.mt10 {
+	margin-top: 15px;
+}
+
+.btn-login {
+    display: block;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    margin: 5px auto;
+    font-size: 16px;
+    background-position: 0 0px; 
+    color: #fff;
+    font-weight: 600;
+    background-color: #F79209;
+    margin-left:125px ;
+    text-decoration: none;
+   
+}
+.inp-txt{
+    width: 193px;
+    height: 18px;
+    line-height: 18px;
+    color: rgb(153, 153, 153);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(207, 205, 199);
+    border-image: initial;
+    background: rgb(255, 255, 255);
+    padding: 5px 0px 5px 5px;
+    margin-top: 5px;
+}
+
+.color999{
+	color:#999;
+}
+
+.booking-bd .i-change {
+    position: absolute;
+    top: 102px;
+    left: 334px;
+}
+
+.i-change{
+    display: block;
+    width: 23px;
+    height: 46px;
+    background-position: -60px -80px;
+    background-image: url(../../images/bg02.png);
+    background-repeat: repeat-x;
+}
+
+.i-city{
+
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background-position: 0 -150px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+
+#to_station_imageB{
+	top: 130px;
+	left: 310px;
+	background-image: url(../../images/icon.png);
+}
+
+#from_station_imageB{
+	top: 96px;
+	left: 310px;
+	background-image: url(../../images/icon.png);
+}
+
+.i-date{
+	display: inline-block;
+	width: 20px;
+	height: 30px;
+	position: absolute;
+	background-position: 0 -240px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+
+#from_imageClick{
+	top: 172px;
+	left: 310px;
+	background-image: url(../../images/icon.png);
+}
+
+#back_imageClick{
+	top: 206px;
+	left: 310px;
+	background-image: url(../../images/icon.png);
+}

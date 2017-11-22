@@ -1,0 +1,28 @@
+#oracle.url=jdbc:oracle:thin:@130.101.2.184:1521:T5WEBCS  
+  
+#oracle.user=T5201638_ENTITY  
+  
+#oracle.password=thsoft  
+  
+#oracle.maxconn=10
+
+#oracle.maxwait=5000
+
+mysql.url=jdbc:mysql://localhost:3306/db_blog?characterEncoding=UTF-8&useSSL=false
+  
+mysql.user=root  
+  
+mysql.password=niubidecc.  
+  
+mysql.maxconn=10
+
+mysql.maxwait=2000
+ 
+jdbcName=com.mysql.jdbc.Driver oracle.jdbc.driver.OracleDriver
+
+openlog=1
+#\u65E5\u5FD7\u6587\u4EF6\u7684\u540D\u79F0  
+logfile= /sql.log
+#\u65E5\u5FD7\u7EA7\u522B  
+loglevel= 3
+
