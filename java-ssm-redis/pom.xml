@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>pers.cc.mdm</groupId>
-    <artifactId>ccMdm</artifactId>
+    <artifactId>java-ssm-redis</artifactId>
     <packaging>war</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <name>Personal_cc_CRM</name>
@@ -262,7 +262,7 @@
 
     </dependencies>
     <build>
-        <finalName>ccMdm</finalName>
+        <finalName>java-ssm-redis</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

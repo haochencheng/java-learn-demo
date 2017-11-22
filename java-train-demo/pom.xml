@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.cc</groupId>
-    <artifactId>TicketsSearching</artifactId>
+    <artifactId>java-train-demo</artifactId>
     <packaging>war</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <name>TicketsSearching Maven Webapp</name>
@@ -53,17 +53,12 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.31</version>
         </dependency>
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>RELEASE</version>
-        </dependency>
+
 
 
     </dependencies>
     <build>
-        <finalName>TicketsSearching</finalName>
+        <finalName>java-train-demo</finalName>
     </build>
 </project>
