@@ -3,20 +3,23 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>java-spring-boot</groupId>
-	<artifactId>java-spring-boot</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<parent>
+		<groupId>pers-cc-demo</groupId>
+		<artifactId>java-learn-demo</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
 	<packaging>jar</packaging>
 
 	<name>java-spring-boot</name>
-	<description>Demo project for Spring Boot</description>
-
-	<parent>
+    <groupId>pers-cc-demo</groupId>
+    <artifactId>java-spring-boot</artifactId>
+    <version>1.0-SNAPSHOT</version>
+	<!--<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.5.8.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
+		<relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;
+	</parent>-->
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -35,6 +38,10 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+
+
+
+
 
 		</dependencies>
 	</dependencyManagement>
@@ -201,9 +208,45 @@
 			<artifactId>base64</artifactId>
 			<version>2.3.9</version>
 		</dependency>
-		
-		
-		
+
+
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils -->
+        <dependency>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/commons-validator/commons-validator -->
+        <dependency>
+            <groupId>commons-validator</groupId>
+            <artifactId>commons-validator</artifactId>
+            <version>1.6</version>
+        </dependency>
 		
 		
 	</dependencies>

@@ -13,7 +13,7 @@ public class Person {
     private String name;
 
     @Min(value = 0)
-    @Max(value = 100,message = "人的年龄不能超过200岁")
+    @Max(value = 100,message = "人的年龄不能超过100岁")
     private int age;
 
     public String getName() {
