@@ -2,24 +2,22 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/java-activiti-demo/ActivitiDemo.iml" filepath="$PROJECT_DIR$/java-activiti-demo/ActivitiDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-activiti-demo/ActivitiDemo.iml" filepath="$PROJECT_DIR$/java-activiti-demo/ActivitiDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-activiti-demo/java-activiti-demo.iml" filepath="$PROJECT_DIR$/java-activiti-demo/java-activiti-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-alogorithm-demo/java-alogorithm-demo.iml" filepath="$PROJECT_DIR$/java-alogorithm-demo/java-alogorithm-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-common-util/java-common-util.iml" filepath="$PROJECT_DIR$/java-common-util/java-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-conncurrent-demo/java-conncurrent-demo.iml" filepath="$PROJECT_DIR$/java-conncurrent-demo/java-conncurrent-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-connpool-demo/java-connpool-demo.iml" filepath="$PROJECT_DIR$/java-connpool-demo/java-connpool-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-cookies-demo/java-cookies-demo.iml" filepath="$PROJECT_DIR$/java-cookies-demo/java-cookies-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-hibernate-demo/java-hibernate-demo.iml" filepath="$PROJECT_DIR$/java-hibernate-demo/java-hibernate-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-io-demo/java-io-demo.iml" filepath="$PROJECT_DIR$/java-io-demo/java-io-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-learn-demo.iml" filepath="$PROJECT_DIR$/java-learn-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-springboot-demo/java-springboot-demo.iml" filepath="$PROJECT_DIR$/java-springboot-demo/java-springboot-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-spring-boot/java-spring-boot.iml" filepath="$PROJECT_DIR$/java-spring-boot/java-spring-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-ssm-redis/java-ssm-redis.iml" filepath="$PROJECT_DIR$/java-ssm-redis/java-ssm-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-ssm-shiro/java-ssm-shiro.iml" filepath="$PROJECT_DIR$/java-ssm-shiro/java-ssm-shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-swing-demo/java-swing-demo.iml" filepath="$PROJECT_DIR$/java-swing-demo/java-swing-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-train-demo/java-train-demo.iml" filepath="$PROJECT_DIR$/java-train-demo/java-train-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-transport-cxf/java-transport-cxf.iml" filepath="$PROJECT_DIR$/java-transport-cxf/java-transport-cxf.iml" />
       <module fileurl="file://$PROJECT_DIR$/pers-cc-blog/pers-cc-blog.iml" filepath="$PROJECT_DIR$/pers-cc-blog/pers-cc-blog.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pers-spring-demo/pers-spring-demo.iml" filepath="$PROJECT_DIR$/pers-spring-demo/pers-spring-demo.iml" />
     </modules>
   </component>
 </project>

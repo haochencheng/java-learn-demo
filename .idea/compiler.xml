@@ -10,10 +10,12 @@
         <module name="java-activiti-demo" />
         <module name="java-alogorithm-demo" />
         <module name="java-common-util" />
+        <module name="java-conncurrent-demo" />
         <module name="java-connpool-demo" />
         <module name="java-cookies-demo" />
         <module name="java-hibernate-demo" />
         <module name="java-io-demo" />
+        <module name="java-spring-boot" />
         <module name="java-springboot-demo" />
         <module name="java-ssm-redis" />
         <module name="java-ssm-shiro" />
@@ -29,16 +31,19 @@
       <module name="java-activiti-demo" target="1.8" />
       <module name="java-alogorithm-demo" target="1.8" />
       <module name="java-common-util" target="1.5" />
+      <module name="java-conncurrent-demo" target="1.8" />
       <module name="java-connpool-demo" target="1.8" />
       <module name="java-cookies-demo" target="1.8" />
       <module name="java-hibernate-demo" target="1.8" />
       <module name="java-io-demo" target="1.8" />
       <module name="java-learn-demo" target="1.8" />
+      <module name="java-spring-boot" target="1.8" />
       <module name="java-springboot-demo" target="1.8" />
+      <module name="java-springboot-demo (1)" target="1.5" />
       <module name="java-ssm-redis" target="1.8" />
       <module name="java-ssm-shiro" target="1.8" />
       <module name="java-swing-demo" target="1.8" />
-      <module name="java-train-demo" target="1.5" />
+      <module name="java-train-demo" target="1.8" />
       <module name="java-transport-cxf" target="1.8" />
       <module name="pers-cc-blog" target="1.8" />
       <module name="pers-spring-demo" target="1.8" />

@@ -32,10 +32,10 @@
         <module>java-swing-demo</module>
         <module>java-transport-cxf</module>
         <module>java-alogorithm-demo</module>
-        <module>java-springboot-demo</module>
-        <module>pers-spring-demo</module>
+        <!--<module>pers-spring-demo</module>-->
         <module>java-spring-boot</module>
         <module>java-activiti-demo</module>
+        <module>java-conncurrent-demo</module>
 
     </modules>
     <dependencies>

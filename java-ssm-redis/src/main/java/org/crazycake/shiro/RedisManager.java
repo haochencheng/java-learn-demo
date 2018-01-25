@@ -53,7 +53,7 @@ public class RedisManager {
 		try{
 			value = jedis.get(key);
 		}finally{
-			jedisPool.returnResource(jedis);
+			jedisPool.close();
 		}
 		return value;
 	}
@@ -72,7 +72,7 @@ public class RedisManager {
 				jedis.expire(key, this.expire);
 		 	}
 		}finally{
-			jedisPool.returnResource(jedis);
+			jedisPool.close();
 		}
 		return value;
 	}
@@ -92,7 +92,7 @@ public class RedisManager {
 				jedis.expire(key, expire);
 		 	}
 		}finally{
-			jedisPool.returnResource(jedis);
+			jedisPool.close();
 		}
 		return value;
 	}
@@ -106,7 +106,7 @@ public class RedisManager {
 		try{
 			jedis.del(key);
 		}finally{
-			jedisPool.returnResource(jedis);
+			jedisPool.close();
 		}
 	}
 
@@ -118,7 +118,7 @@ public class RedisManager {
 		try{
 			jedis.flushDB();
 		}finally{
-			jedisPool.returnResource(jedis);
+			jedisPool.close();
 		}
 	}
 
@@ -131,14 +131,14 @@ public class RedisManager {
 		try{
 			dbSize = jedis.dbSize();
 		}finally{
-			jedisPool.returnResource(jedis);
+			jedisPool.close();
 		}
 		return dbSize;
 	}
 
 	/**
 	 * keys
-	 * @param regex
+	 * @param
 	 * @return
 	 */
 	public Set<byte[]> keys(String pattern){
@@ -147,7 +147,7 @@ public class RedisManager {
 		try{
 			keys = jedis.keys(pattern.getBytes());
 		}finally{
-			jedisPool.returnResource(jedis);
+			jedisPool.close();
 		}
 		return keys;
 	}

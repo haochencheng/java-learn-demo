@@ -7,14 +7,13 @@
  */
 package pers.cc.swing.test;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
-
 import pers.cc.swing.controller.ReplaceTextController;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * 简单描述

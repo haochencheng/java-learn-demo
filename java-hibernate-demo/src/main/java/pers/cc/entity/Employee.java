@@ -1,5 +1,8 @@
 package pers.cc.entity;
 
+import org.hibernate.annotations.Cache;
+import org.hibernate.annotations.CacheConcurrencyStrategy;
+
 /**
  * 人员实体类
  * 

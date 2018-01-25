@@ -16,7 +16,7 @@
  			<property name="fristName" column="fristName" type="string" />
  			<property name="lastName" column="lastName" type="string" />
  			<property name="salary" column="salary" type="int" />
- 			
+
  		</class>
  	
  </hibernate-mapping>
